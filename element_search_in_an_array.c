@@ -1,23 +1,23 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,flag=0;
+    int i,n,f=0;
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++)
     {
-        scanf("%d",&a[i]);
+      scanf("%d",&a[i]);  
     }
-    for(i=0;i<n;i++)
+    for( i=0;i<n;i++)
     {
         int t;
         scanf("%d",&t);
         if(a[i]==t)
         {
-            flag++;
+            f++;
         }
     }
-    if(flag>0)
+    if(f>0)
     {
         printf("True");
     }
